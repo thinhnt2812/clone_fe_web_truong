@@ -1,0 +1,213 @@
+/* PC */
+@media(min-width: 1024px)and (max-width: 1382px){
+    #banner{
+        margin-top: 175px;
+        padding-top: 32%;
+    }
+    .home_un{
+        display: none;
+    }
+    .home_mobile{
+        display: block;
+    }
+}
+
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    #header_logo {
+        padding: 0 5%;
+    }
+
+    .home_un{
+        display: none;
+    }
+    .home_mobile{
+        display: block;
+    }
+    .nav{
+        height: auto;
+        padding: 0 5%;
+    }
+    #subnav li a{
+        text-align: center;
+    }
+    #banner{
+        margin-top: 175px;
+        padding-top: 32%;
+    }
+    #content{
+        margin: 0 5%;
+    }
+    .content_list{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        padding-bottom: 16px;
+    }
+    #container{
+        width: 100%;
+    }
+    #container_video{
+        width: 100%;
+        display: block;
+    }
+    .video_content,
+    #container_video_text{
+        width: 100%;
+    }
+    .video_content{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .video_youtube{
+        margin: auto;
+    }
+    #container_video .video_text{
+        margin: 0;
+    }
+    #footer_list{
+        margin: 0 5%;
+    }
+    .footer_content{
+        width: 100%;
+    }
+    #footer .Notification_img{
+        max-width: 100%;
+    }
+    .footer_img{
+        padding: 0;
+    }
+    .dash_tablet_mobile{
+        width: 300px;
+        height: 4px;
+        background-color: rgba(0,0,0,.1);
+        margin: 20px 0;
+    }
+}
+
+/* mobile */
+@media(max-width: 739px){
+    #banner{
+        margin-top: 70px;
+        padding-top: 32%;
+    }
+    #content{
+        margin: 0 5%;
+    }
+    .content_list{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        padding-bottom: 16px;
+    }
+    #container{
+        width: 100%;
+    }
+    #container_video{
+        width: 100%;
+        display: block;
+    }
+    .video_content,
+    #container_video_text{
+        width: 100%;
+    }
+    .video_content{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .video_youtube{
+        margin: auto;
+    }
+    #container_video .video_text{
+        margin: 0;
+    }
+    #footer{
+        background-color: #1e3769;
+    }
+    #footer_list{
+        margin: 0 5%;
+    }
+    .footer_content{
+        width: 100%;
+    }
+    #footer .Notification_img{
+        max-width: 100%;
+    }
+    .footer_img{
+        padding: 0;
+    }
+    .dash_tablet_mobile{
+        width: 300px;
+        height: 4px;
+        background-color: rgba(0,0,0,.1);
+        margin: 20px 0;
+    }
+
+
+    /* menu_mobile */
+    .home_mobile,
+    .menu_mobile,
+    .menu_list> li> .close_menu_mobile{
+        display: block;
+    }
+    #header_logo{
+        padding: 0 5%;
+        box-shadow: 0px 10px 50px 0px rgba(0,0,0,0.3);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_mobile {
+        color: #1e3769;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    #header_logo img{
+        height: 50px;
+    }
+    .nav{
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 70vw;
+        padding: 0;
+        background-color: rgba(255,255,255,1);
+        box-shadow: 200px 0px 80px 100px rgba(0,0,0,0.7);
+    }
+    .home_btn{
+        color: #000;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+    .home_un{
+        display: none;
+    }
+    .menu_list{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_list li{
+        height: 70px;
+        padding-left: 5%;
+        width: 70vw;
+
+    }
+    .close_menu_mobile,
+    .menu_list li a{
+        line-height: 70px;
+        font-size: 16;
+        color: #000;
+    }
+    .close_menu_mobile{
+        font-size: 30px;
+    }
+    #subnav li a{
+        line-height: 70px;
+        font-size: 16px;
+        padding: 0;
+    }
+
+}

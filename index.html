@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thương mại điện tử</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font_Icon/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div id="header_logo">
+            <a onclick=showSidebar() href="#" class="menu_mobile ti-menu"></a>
+            <img class="logo_img" src="./assets/image/header_logo.png" alt="">
+        </div>
+        <div class="nav">
+            <div class="home_un"><a class="logo_home ti-home" href="./index.html"></a></div>
+            <ul class="menu_list">
+                <li onclick=hideSidebar()>
+                    <a href="#" class="close_menu_mobile  ti-close"></a>
+                </li>
+                <li class="home_mobile">
+                    <a href="./index.html">Trang chủ 
+                        <i class="home_btn ti-home"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="./gioi_thieu/gioithieu.html">Giới thiệu
+                        <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="./ban_giam_hieu/bangiamhieu.html">Ban giám hiệu</a></li>
+                        <li><a href="">Sứ mạng - Mục tiêu - Tầm nhìn</a></li>
+                        <li><a href="">Định hướng phát triển</a></li>
+                        <li><a href="">Ba công khai</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Tuyển sinh
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">Tuyển sinh đại học 2023</a></li>
+                        <li><a href="">Tuyển sinh thạc sĩ 2023</a></li>
+                        <li><a href="">Quy chế tuyển sinh</a></li>
+                        <li><a href="">Đề án thi đánh giá năng lực</a></li>
+                        <li><a href="">Tra cứu</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Đào tạo
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">Thông báo</a></li>
+                        <li><a href="">Đại học hệ chính quy</a></li>
+                        <li><a href="">Hệ sau đại học</a></li>
+                        <li><a href="">Đại học hệ liên thông</a></li>
+                        <li><a href="">Thông tin văn bằng - Chứng chỉ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Khoa - Đơn vị
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">Khoa quản trị kinh doanh</a></li>
+                        <li><a href="">Khoa tài chính kế toán</a></li>
+                        <li><a href="">Khoa du lịch</a></li>
+                        <li><a href="">Khoa cơ khí</a></li>
+                        <li><a href="">Khoa nhiệt - điện lạnh</a></li>
+                        <li><a href="">Khoa công nghệ thực phẩm</a></li>
+                        <li><a href="">Khoa xây dựng</a></li>
+                        <li><a href="">Khoa điện - Điện tử</a></li>
+                        <li><a href="">Khoa công nghệ thông tin</a></li>
+                        <li><a href="">Khoa dược - Điều dưỡng</a></li>
+                        <li><a href="">Khoa luật</a></li>
+                        <li><a href="">Khoa ngôn ngữ</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Nghiên cứu khoa học</a></li>
+                <li>
+                    <a href="">Hợp tác quốc tế
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">Du học</a></li>
+                        <li><a href="">Hệ quốc tế</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Hỏi đáp
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Hướng đãn sử dụng thư viện số</a></li>
+                        <li><a href="">Các biểu mẫu đại học</a></li>
+                        <li><a href="">Các biểu mẫu cao học</a></li>
+                        <li><a href="">Quy chế đào tạo</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">Sinh viên
+                    <i class="icon_dows ti-angle-down"></i>
+                    </a>
+                    <ul id="subnav">
+                        <li><a href="">Login</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end_header -->
+
+    <!-- banner -->
+    <div id="banner"></div>
+    <!-- end_banner -->
+
+    <!-- content -->
+    <div id="content">
+        <div id="container">
+            <h2 class="container_name" >Tin tức</h2>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_1.jpg" alt="">
+                <div class="content_body">
+                    <a href="">Chung kết và lễ bế mạc giải bóng đá sinh viên khoa cơ khí năm 2023</a>
+                    <div class="dash"></div>
+                    <p>Ngày 19/11/2023, tại sân bóng ĐH Thành Đô, đã diễn ra trận chung kết và ....</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_2.jpg" alt="">
+                <div class="content_body">
+                    <a href="">Lễ kỷ niệm 15 năm thành lập trường đại học công nghệ đông á, khai giảng năm học 2023-2024 và kỷ niệm 41 năm ngày nhà giáo việt nam 20-11</a>
+                    <div class="dash"></div>
+                    <p>Tới tham dự lễ, có Gs. Ts Đinh Văn Thuận - chủ tịch hộng đồng...</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_3.jpg" alt="">
+                <div class="content_body">
+                    <a href="">[2023] đặc điểm nổi bật của công nghệ kỹ thuật điều khiển - tự động hóa hiện nay</a>
+                    <div class="dash"></div>
+                    <p>Trong công cuộc đổi mới, phát triển kinh tế đất nước theo định hướng cách...</p>
+                </div>
+            </div>
+        </div>
+        <div class="other_events">
+            <a href="">Tin tức khác>></a>
+        </div>
+        
+        <div id="container">
+            <h2 class="container_name" >Sự kiện</h2>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_4.webp" alt="">
+                <div class="content_body">
+                    <a href="">Nhà vô địch rung chuông vàng EAUT 2023 gọi tên khoa điện - điện tử</a>
+                    <div class="dash"></div>
+                    <p>Sau hơn 2 tháng triển khai và thi đấu với 14 trận đấu trí khốc...</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_5.webp" alt="">
+                <div class="content_body">
+                    <a href="">Khoa tài chính - kế toán "Khai mạc hội thao sinh viên khỏe 2023" - chào mừng 41 năm ngày nhà giáo Việt Nam</a>
+                    <div class="dash"></div>
+                    <p>Nhằm tiếp nối truyền thống và đẩy mạnh tinh thần thể thao của các bạn...</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_6.webp" alt="">
+                <div class="content_body">
+                    <a href="">"Ngày hội máy tính 2023" - kết nối công nghệ cùng sinh viên EAUT</a>
+                    <div class="dash"></div>
+                    <p>Sáng nay, 23/9/2023, thực hiện kế hoạch truyền thông sự kiện năm học 2023-...</p>
+                </div>
+            </div>
+        </div>
+        <div class="other_events">
+            <a href="">SỰ KIỆN KHÁC>></a>
+        </div>
+
+        <div id="container">
+            <h2 class="container_name" >Các ngành đào tạo ở EAUT</h2>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_7.webp" alt="">
+                <div class="content_body">
+                    <a href="">Nghành Công nghệ thông tin</a>
+                    <div class="dash"></div>
+                    <p>Trong bối cảnh hiện nay của Việt Nam. Ngành công nghệ thông tin (CNTT) là...</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_8.webp" alt="">
+                <div class="content_body">
+                    <a href="">Ngành công nghệ kỹ thuật ô tô</a>
+                    <div class="dash"></div>
+                    <p>Trong xu hướng phát triển của xã hội hiện đại, Việt Nam coi công nghệ...</p>
+                </div>
+            </div>
+            <div class="content_list">
+                <img class="content_img" src="./assets/image/content_9.webp" alt="">
+                <div class="content_body">
+                    <a href="">Ngành quản trị kinh doanh</a>
+                    <div class="dash"></div>
+                    <p>Ngành quản trị kinh doanh (QTKD) là một trong những ngành học đóng vai trò...</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="container_name" >Sinh viên tốt nghiệp</h2>
+        <div id="container_video">
+            <div class="video_content">
+                <iframe class="video_youtube" width="560" height="315" src="https://www.youtube.com/embed/f4L1wg4M3jQ?si=-gbDPwR9yDDHXJ28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div id="container_video_text">
+                <div class="video_text">
+                    <h3>Thực học</h3>
+                    <p>vững vàng kiến thức chuyên môn</p>
+                </div>
+                <div class="video_text">
+                    <h3>Thực danh</h3>
+                    <p>Tự tin phát huy năng lực, thể hiện bản thân</p>
+                </div>
+                <div class="video_text">
+                    <h3>Thực hành</h3>
+                    <p>Giàu thực tiễn, thực hành, thực tế</p>
+                </div>
+                <div class="video_text">
+                    <h3>Thự nghiệp</h3>
+                    <p>Gắn kết, đáp ứng tốt yêu cầu doanh nghiệp công nghiệp</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end_content -->
+
+    <!-- footer -->
+    <div id="footer">
+        <div id="footer_list">
+            <div class="footer_content">
+                <p class="footer_topic">Hà Nội</p>
+                <div class="dash_footer"></div>
+                <p>Đại Học Công Nghệ Đông Á</p>
+                <p>Cơ sở đào tạo thực hành</p>
+                <p>Quyết định thành lập số: 1777/QĐ-TTg
+                Toà Nhà Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</p>
+                <p>Điện thoại: 0243.555.2008</p>
+                <p>email: tuyensinh@eaut.edu.vn</p>
+                <div class="dash_tablet_mobile"></div>
+            </div>
+            <div class="footer_content">
+                <p class="footer_topic">Bắc Ninh</p>
+                <div class="dash_footer"></div>
+                <p>Đại Học Công Nghệ Đông Á</p>
+                <p>Quyết định thành lập số: 1777/QĐ-TTg
+                Làng Đại học, Phường Võ Cường, Bắc Ninh</p>
+                <p>Điện thoại: 0243.555.2008</p>
+                <p>email: tuyensinh@eaut.edu.vn</p>
+                <div class="dash_tablet_mobile"></div>
+            </div>
+            <div class="footer_content">
+                <p class="footer_topic">Social Network</p>
+                <div class="dash_footer"></div>
+                <ul class="social_img">
+                    <li class="img_list"><a href="https://www.facebook.com/dhcnDongA"><img src="./assets/image/social_img/facebook.png" alt=""></a></li>
+                    <li class="img_list"><a href=""><img src="./assets/image/social_img/gmail.png" alt=""></a></li>
+                    <li class="img_list"><a href="https://www.youtube.com/channel/UCwYTgSfbu6Cmoe8VcAhkTcg"><img src="./assets/image/social_img/youtube.png" alt=""></a></li>
+                    <li class="img_list"><a href=""><img src="./assets/image/social_img/twitter.png" alt=""></a></li>
+                </ul>
+                <p class="footer_topic">Các điều khoản</p>
+                <div class="dash_footer"></div>
+                <p>Điều khoản sử dụng</p>
+                <h4 style="margin-top: 20px;"><a class="rule" href="https://drive.google.com/file/d/1zZaoRY-11q8a-WBE6J6gi2U7ljZ1qqxH/view">Chính sách bảo mật thông tin</a></h4>
+                <div class="dash_tablet_mobile"></div>
+            </div>
+            <div class="footer_img footer_content">
+                <a href="http://online.gov.vn/Home/WebDetails/80204?AspxAutoDetectCookieSupport=1"><img class="Notification_img" src="./assets/image/thongbao.png" alt=""></a>
+            </div>
+        </div>
+        <!-- end_footer -->
+    </div>
+    <!-- end_footer -->
+
+    <script>
+        //menu_mobile
+        function showSidebar(){
+            const sidebar = document.querySelector('.nav')
+            sidebar.style.display='flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.nav')
+            sidebar.style.display='none'
+        }
+        //emd_menu_mobile
+    </script>
+</body>
+</html>
